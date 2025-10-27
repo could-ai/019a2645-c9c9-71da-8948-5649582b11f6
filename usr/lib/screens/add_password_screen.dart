@@ -1,11 +1,11 @@
 import 'dart:convert';
+import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:password_manager_app/providers/password_provider.dart';
 import 'package:password_manager_app/models/password.dart';
 import 'package:uuid/uuid.dart';
-
 class AddPasswordScreen extends StatefulWidget {
   final Password? password;
 
